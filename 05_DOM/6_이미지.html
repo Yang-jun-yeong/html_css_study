@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="img" src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fus.123rf.com%2F450wm%2Fmotismotis%2Fmotismotis2308%2Fmotismotis230800013%2Fmotismotis230800013-2024-typography-logo-design-concept-happy-new-year-2024-logo-design.jpg%3Fver%3D6&type=a340">
+    <br>
+    <button onclick = "changeImg()">이미지 변경</button>
+    <script>
+        // 일반적인 사고 -> 버튼을 눌렀을 때, 이미지태그의 src를 변경!
+        const changeImg = () => {
+            document.getElementById("img").src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fpng.pngtree.com%2Fpng-clipart%2F20231001%2Foriginal%2Fpngtree-new-year-2024-with-dragon-vector-banner-transparent-image-png-image_13207503.png&type=a340"
+        }
+        // 인풋태그랑 이미지태그에서 배울 점!
+        // 1. JS에서 명령을 내릴 때는 반드시 첫번째로 요소를 수집
+        // 2. 수집하고자 하는걸 명확하게 작성해라
+        // - 글자수집 : innerText
+        // - 인풋벨류 : value
+        // - 이미지src : src
+        // 3. 기능을 외우지 말고, 동작하는 원리를 기억하자.
+    </script>
+</body>
+</html>
